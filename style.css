@@ -1,0 +1,178 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: black;
+height: 100vh;
+font-family: system-ui;
+}
+.img{
+width: 220px;
+
+}
+.name{
+color: rgb(157, 146, 218);
+font-size:60px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.jop{
+color: rgb(255, 255, 255);
+font-size: 30px;
+font-family: monospace;
+}
+
+.ab,.d{
+    color:rgb(157, 146, 218) ;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.p ,.birth{
+color: white;
+font-size: larger;
+font-family: sans-serif;
+margin-bottom: 40px;
+}
+.birth{
+    margin-bottom: 60px;
+}
+.ad{
+    color:rgb(157, 146, 218) ;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: 1px;
+
+}
+.border{
+width: 700px;
+background: linear-gradient(rgb(0, 0, 0),rgb(53, 52, 61));
+    border:solid 10px white ; 
+margin-right: 20%;
+margin-left: 40%;
+margin-top: 2%;
+
+}
+
+
+.card,.card1,.card2{
+
+    background-color:rgb(114, 114, 206);
+    width: 23.25em;
+    box-shadow: 0 5px 25px rgb(2, 20, 20);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+    }
+    .card:hover {
+    transform: scale(1.1);
+    }
+
+    .card1:hover {
+        transform: scale(1.1);
+        }
+        .card2:hover {
+            transform: scale(1.1);
+            }
+
+
+    .icon
+    {color: rgb(49, 214, 226,0.808);
+    font-size: 8em;
+    text-align: center;
+    }
+    .info {
+    text-align: center;
+    }
+    .info h3{
+    color:aqua;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+    }
+    .xx{
+    color: bisque;
+    font-size: larger;
+    font-style: italic;
+    }
+    .xxx{
+        color: bisque;
+        font-size: larger;
+        font-style: italic;
+    }
+    .xxxx{
+    color: aqua;
+    }
+    
+    .card{
+position: absolute;
+left: 10px;
+top: 610px;
+    }
+    .card1{
+        position: absolute;
+        left: 10px;
+        top: 840px;
+            }
+            .card2{
+                position: absolute;
+                left: 10px;
+                top: 1070px;
+                    }
+                  .links{
+margin: 0;
+padding: 0;
+box-sizing:border-box ;
+display: flex;
+position: absolute;
+top: 1250px;
+left:  130px;
+                  }
+.links a{
+    margin: 0 15px;
+background-color: rgb(68, 73, 78);
+text-decoration: none;
+border-radius:15%;
+
+transition: 0.3s;
+
+}
+.links a i{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+font-size: 30px;
+color: rgb(0, 0, 0);
+width: 60px;
+padding: 15px;
+
+transition:0.3s ;
+
+}
+
+.links a:nth-child(1):hover i{
+
+    color: #1877f2;
+
+}
+.links a:nth-child(2):hover i{
+
+    color: #c32aa3;
+}
+
+.links a:hover {
+
+border-radius: 50%;
+
+}
+
+.links a:hover i {
+transform: rotate(20deg);
+
+}
+
